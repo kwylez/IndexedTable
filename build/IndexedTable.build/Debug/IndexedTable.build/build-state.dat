@@ -1,0 +1,51 @@
+TIndexedTable
+v7
+r1
+
+N/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.xib
+c000000004B858F12000000000000427F
+t1267044114
+s17023
+
+N/Users/cwiles/iPhone Projects/IndexedTable/MainWindow.xib
+c000000004B858E4D0000000000001F6C
+t1267043917
+s8044
+
+N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug/IndexedTable.app
+t2
+s0
+
+N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug/IndexedTable.app/Contents/Info.plist
+t2
+s0
+
+N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug/IndexedTable.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug/IndexedTable.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug/IndexedTable.app/Contents/Resources/StatesViewController.nib
+t2
+s0
+
+NIndexedTable-Info.plist
+c000000004B858E4D000000000000038D
+t1267043917
+s909
+
+CCompileXIB "/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.xib"
+r0
+
+CCompileXIB "/Users/cwiles/iPhone Projects/IndexedTable/MainWindow.xib"
+r0
+
+CProcessInfoPlistFile "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug/IndexedTable.app/Contents/Info.plist" IndexedTable-Info.plist
+r0
+
+CTouch "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug/IndexedTable.app"
+r0
+
