@@ -17,64 +17,73 @@
 @synthesize arrayOfCharacters;
 @synthesize objectsForCharacters;
 
-- (void)viewDidLoad {
+- (id)initWithStyle:(UITableViewStyle)style {
+
+  self = [super initWithStyle:style];
   
-  self.states = [NSArray arrayWithObjects:@"Alabama",  
-                 @"Alaska",  
-                 @"Arizona",  
-                 @"Arkansas",  
-                 @"California",  
-                 @"Colorado",  
-                 @"Connecticut",  
-                 @"Delaware",  
-                 @"District Of Columbia",  
-                 @"Florida", 
-                 @"Georgia",  
-                 @"Hawaii",  
-                 @"Idaho",  
-                 @"Illinois",  
-                 @"Indiana",  
-                 @"Iowa",  
-                 @"Kansas",  
-                 @"Kentucky",  
-                 @"Louisiana",  
-                 @"Maine",  
-                 @"Maryland",  
-                 @"Massachusetts",  
-                 @"Michigan",  
-                 @"Minnesota",  
-                 @"Mississippi",  
-                 @"Missouri",  
-                 @"Montana",
-                 @"Nebraska",
-                 @"Nevada",
-                 @"New Hampshire",
-                 @"New Jersey",
-                 @"New Mexico",
-                 @"New York",
-                 @"North Carolina",
-                 @"North Dakota",
-                 @"Ohio",  
-                 @"Oklahoma",  
-                 @"Oregon",  
-                 @"Pennsylvania",  
-                 @"Rhode Island",  
-                 @"South Carolina",  
-                 @"South Dakota",
-                 @"Tennessee",  
-                 @"Texas",  
-                 @"Utah",  
-                 @"Vermont",  
-                 @"Virginia",  
-                 @"Washington",  
-                 @"West Virginia",  
-                 @"Wisconsin",  
-                 @"Wyoming", nil
-                 ];
+  if (self) {
+    self.states = [NSArray arrayWithObjects:@"Alabama",  
+                   @"Alaska",  
+                   @"Arizona",  
+                   @"Arkansas",  
+                   @"California",  
+                   @"Colorado",  
+                   @"Connecticut",  
+                   @"Delaware",  
+                   @"District Of Columbia",  
+                   @"Florida", 
+                   @"Georgia",  
+                   @"Hawaii",  
+                   @"Idaho",  
+                   @"Illinois",  
+                   @"Indiana",  
+                   @"Iowa",  
+                   @"Kansas",  
+                   @"Kentucky",  
+                   @"Louisiana",  
+                   @"Maine",  
+                   @"Maryland",  
+                   @"Massachusetts",  
+                   @"Michigan",  
+                   @"Minnesota",  
+                   @"Mississippi",  
+                   @"Missouri",  
+                   @"Montana",
+                   @"Nebraska",
+                   @"Nevada",
+                   @"New Hampshire",
+                   @"New Jersey",
+                   @"New Mexico",
+                   @"New York",
+                   @"North Carolina",
+                   @"North Dakota",
+                   @"Ohio",  
+                   @"Oklahoma",  
+                   @"Oregon",  
+                   @"Pennsylvania",  
+                   @"Rhode Island",  
+                   @"South Carolina",  
+                   @"South Dakota",
+                   @"Tennessee",  
+                   @"Texas",  
+                   @"Utah",  
+                   @"Vermont",  
+                   @"Virginia",  
+                   @"Washington",  
+                   @"West Virginia",  
+                   @"Wisconsin",  
+                   @"Wyoming", nil
+                   ];
+  }
+  
+  return self;
+}
+
+- (void)viewDidLoad {
+
+  [super viewDidLoad];
   
   [self setupIndexData];
-  
-  [super viewDidLoad];
 }
 
 
@@ -127,18 +136,16 @@
   return 0;// in case of some eror donot crash d application
 }
 
-
-// Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
   static NSString *CellIdentifier = @"Cell";
   
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+
   if (cell == nil) {
-      cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
   }
-    
-  // Set up the cell...
+
   cell.textLabel.text = [[objectsForCharacters objectForKey:[arrayOfCharacters objectAtIndex:indexPath.section]] objectAtIndex:indexPath.row];
 	
   return cell;
@@ -149,45 +156,61 @@
   self.arrayOfCharacters    = [[NSMutableArray alloc] init];
   self.objectsForCharacters = [[NSMutableDictionary alloc] init];
   
+  NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
   NSMutableArray *arrayOfNames = [[NSMutableArray alloc] init];
+  NSString *numbericSection    = @"#";
   NSString *firstLetter;
   
-  for (NSString *state in self.states) {
+  for (NSString *item in self.states) {
     
-    NSLog(@"state: %@", state);
+    firstLetter = [[item description] substringToIndex:1];
     
-    firstLetter = [state substringToIndex:1];
-    
-    /**
-     * If the letter doesn't exist in the dictionary go ahead and add it the 
-     * dictionary.
-     *
-     * ::IMPORTANT::
-     * You HAVE to removeAllObjects from the arrayOfNames or you will have an N + 1
-     * problem.  Let's say that start with the A's, well once you hit the 
-     * B's then in your table you will the A's and B's for the B's section.  Once 
-     * you hit the C's you will all the A's, B's, and C's, etc.
-     */
-    if (![objectsForCharacters objectForKey:firstLetter]) {
+    // Check if it's NOT a number
+    if ([formatter numberFromString:firstLetter] == nil) {
+      
+      /**
+       * If the letter doesn't exist in the dictionary go ahead and add it the 
+       * dictionary.
+       *
+       * ::IMPORTANT::
+       * You HAVE to removeAllObjects from the arrayOfNames or you will have an N + 1
+       * problem.  Let's say that start with the A's, well once you hit the 
+       * B's then in your table you will the A's and B's for the B's section.  Once 
+       * you hit the C's you will all the A's, B's, and C's, etc.
+       */
+      if (![objectsForCharacters objectForKey:firstLetter]) {
+        
+        [arrayOfNames removeAllObjects];
 
-      [arrayOfNames removeAllObjects];
+        [arrayOfCharacters addObject:firstLetter];
+      } 
+
+      [arrayOfNames addObject:[item description]];
       
-      [arrayOfCharacters addObject:[NSString stringWithFormat:@"%@",firstLetter]];
-    } 
+      /**
+       * Need to autorelease the copy to preven potential leak.  Even though the 
+       * arrayOfNames is released below it still has a retain count of +1
+       */
+      [objectsForCharacters setObject:[[arrayOfNames copy] autorelease] forKey:firstLetter];
       
-    [arrayOfNames addObject:state];
-    
-    /**
-     * NOTE:: CDW
-     * Need to autorelease the copy to preven potential leak.  Even though the 
-     * arrayOfNames is released below it still has a retain count of +1
-     */
-    [objectsForCharacters setObject:[[arrayOfNames copy] autorelease] forKey:[NSString stringWithFormat:@"%@",firstLetter]];
-    
+    } else {
+      
+      if (![objectsForCharacters objectForKey:numbericSection]) {
+      
+        [arrayOfNames removeAllObjects];
+        
+        [arrayOfCharacters addObject:numbericSection];
+      }
+      
+      [arrayOfNames addObject:[item description]];
+      
+      [objectsForCharacters setObject:[[arrayOfNames copy] autorelease] forKey:numbericSection];
+    }
   }
 
+  [formatter release];
   [arrayOfNames release];  
- 
+  
   [self.tableView reloadData];
 }
 
