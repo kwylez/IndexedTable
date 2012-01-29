@@ -1,716 +1,0 @@
-TIndexedTable
-v7
-r0
-t302561921.154641
-cCheck dependencies
-cProcessInfoPlistFile /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist IndexedTable-Info.plist
-cCompileXIB /Users/coryw/Desktop/git/IndexedTable/MainWindow.xib
-cCompileXIB /Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.xib
-cProcessPCH /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-bmffnzbuxctyyhfwbpbrajwgbdtm/IndexedTable_Prefix.pch.gch IndexedTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o /Users/coryw/Desktop/git/IndexedTable/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o /Users/coryw/Desktop/git/IndexedTable/Classes/IndexedTableAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o /Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable normal i386
-cGenerateDSYMFile /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-cTouch /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004AD4D0F600000000000000EE
-t1255461110
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026EE30
-t1253951571
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027E880
-t1253951826
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE200000000016721E0
-t1253961442
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C44B2770000000000000132
-t1279570551
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/coryw/Desktop/git/IndexedTable/Classes/IndexedTableAppDelegate.h
-c000000004B881759000000000000020E
-t1267210073
-s526
-i<UIKit/UIKit.h>
-i"StatesViewController.h"
-
-N/Users/coryw/Desktop/git/IndexedTable/Classes/IndexedTableAppDelegate.m
-c000000004B881756000000000000028C
-t1267210070
-s652
-i"IndexedTableAppDelegate.h"
-
-N/Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.h
-c000000004B88174C000000000000025F
-t1267210060
-s607
-i<UIKit/UIKit.h>
-
-N/Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.m
-c000000004B881745000000000000165C
-t1267210053
-s5724
-i"StatesViewController.h"
-
-N/Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.xib
-c000000004B858F12000000000000427F
-t1267044114
-s17023
-
-N/Users/coryw/Desktop/git/IndexedTable/IndexedTable_Prefix.pch
-c000000004B858E4D00000000000000C1
-t1267043917
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/coryw/Desktop/git/IndexedTable/MainWindow.xib
-c000000004B858E4D0000000000001F6C
-t1267043917
-s8044
-
-N/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-t1280869121
-s238
-
-N/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM
-t1280869121
-s102
-
-N/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-t1280869121
-s23168
-
-N/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist
-t1267043988
-s584
-
-N/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/MainWindow.nib
-t1267043988
-s1350
-
-N/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/PkgInfo
-t1267043988
-s8
-
-N/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/StatesViewController.nib
-t1267044433
-s1386
-
-N/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTable.LinkFileList
-c000000004C58830000000000000001AC
-t1280869120
-s428
-
-N/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o
-t1280869121
-s46500
-
-N/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o
-t1280869121
-s52920
-
-N/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o
-t1280869121
-s6300
-
-N/Users/coryw/Desktop/git/IndexedTable/main.m
-c000000004B858E4D0000000000000168
-t1267043917
-s360
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.h
-c000000004B881759000000000000020E
-t1267210073
-s526
-i<UIKit/UIKit.h>
-i"StatesViewController.h"
-
-N/Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m
-c000000004B881756000000000000028C
-t1267210070
-s652
-i"IndexedTableAppDelegate.h"
-
-N/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.h
-c000000004B88174C000000000000025F
-t1267210060
-s607
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m
-c000000004B881745000000000000165C
-t1267210053
-s5724
-i"StatesViewController.h"
-
-N/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.xib
-c000000004B858F12000000000000427F
-t1267044114
-s17023
-
-N/Users/cwiles/Desktop/IndexedTable/IndexedTable_Prefix.pch
-c000000004B858E4D00000000000000C1
-t1267043917
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/IndexedTable/MainWindow.xib
-c000000004B858E4D0000000000001F6C
-t1267043917
-s8044
-
-N/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-t1267210076
-s238
-
-N/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM
-t1267210076
-s102
-
-N/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-t1267210076
-s26404
-
-N/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist
-t1267043988
-s584
-
-N/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/MainWindow.nib
-t1267043988
-s1350
-
-N/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/PkgInfo
-t1267043988
-s8
-
-N/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/StatesViewController.nib
-t1267044433
-s1386
-
-N/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTable.LinkFileList
-c000000004B858E9400000000000001A3
-t1267043988
-s419
-
-N/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o
-t1267210076
-s38636
-
-N/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o
-t1267210076
-s45336
-
-N/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o
-t1267043989
-s5948
-
-N/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/StaticAnalyzer/normal/i386/IndexedTableAppDelegate.plist
-t1267047778
-s275
-
-N/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/StaticAnalyzer/normal/i386/StatesViewController.plist
-t1267047778
-s275
-
-N/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/StaticAnalyzer/normal/i386/main.plist
-t1267047778
-s275
-
-N/Users/cwiles/Desktop/IndexedTable/main.m
-c000000004B858E4D0000000000000168
-t1267043917
-s360
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/IndexedTable/Classes/IndexedTableAppDelegate.h
-c000000004B881759000000000000020E
-t1267210073
-s526
-i<UIKit/UIKit.h>
-i"StatesViewController.h"
-
-N/Users/cwiles/iPhone Projects/IndexedTable/Classes/IndexedTableAppDelegate.m
-c000000004B881756000000000000028C
-t1267210070
-s652
-i"IndexedTableAppDelegate.h"
-
-N/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.h
-c000000004B88174C000000000000025F
-t1267210060
-s607
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.m
-c000000004B881745000000000000165C
-t1267210053
-s5724
-i"StatesViewController.h"
-
-N/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.xib
-c000000004B858F12000000000000427F
-t1267044114
-s17023
-
-N/Users/cwiles/iPhone Projects/IndexedTable/IndexedTable_Prefix.pch
-c000000004B858E4D00000000000000C1
-t1267043917
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/IndexedTable/MainWindow.xib
-c000000004B858E4D0000000000001F6C
-t1267043917
-s8044
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-t1273542938
-s238
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM
-t1273542938
-s102
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-t1273542938
-s23196
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist
-t1267043988
-s584
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/MainWindow.nib
-t1267043988
-s1350
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/PkgInfo
-t1267043988
-s8
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/StatesViewController.nib
-t1267044433
-s1386
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTable.LinkFileList
-c000000004BE8B91600000000000001BB
-t1273542934
-s443
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o
-t1273542938
-s46412
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o
-t1273542938
-s52932
-
-N/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o
-t1273542938
-s6312
-
-N/Users/cwiles/iPhone Projects/IndexedTable/main.m
-c000000004B858E4D0000000000000168
-t1267043917
-s360
-i<UIKit/UIKit.h>
-
-N/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-bmffnzbuxctyyhfwbpbrajwgbdtm/IndexedTable_Prefix.pch.gch
-t1280869120
-s15232016
-
-N/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-dsnsarrbjepwiqbygpmtelbvsonj/IndexedTable_Prefix.pch.gch
-t1267043989
-s13034960
-
-N/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-gvkonnafcaclohgtgpojwedcksma/IndexedTable_Prefix.pch.pth
-t1267047778
-s1729068
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-fpifvqipsemkwegbucalrdycjywl/IndexedTable_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-gbwihmeexpxxfqcodnyykzhsdgxd/IndexedTable_Prefix.pch.gch
-t1273542937
-s15199248
-
-NIndexedTable-Info.plist
-c000000004B858E4D000000000000038D
-t1267043917
-s909
-
-CAnalyze /Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m
-s288740578.512814
-e288740578.622168
-r1
-xAnalyze
-x/Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m
-lSLF07#2@76"Analyze /Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m288740578#288740578#0(0"0(0#0#68"/Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m4300885448#1970"    cd /Users/cwiles/Desktop/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-gvkonnafcaclohgtgpojwedcksma/IndexedTable_Prefix.pch --analyze /Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m -o /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/StaticAnalyzer/normal/i386/IndexedTableAppDelegate.plist0#
-
-CAnalyze /Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m
-s288740578.616531
-e288740578.664643
-r1
-xAnalyze
-x/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m
-lSLF07#2@73"Analyze /Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m288740578#288740578#0(0"0(0#0#65"/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m4300885448#1964"    cd /Users/cwiles/Desktop/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-gvkonnafcaclohgtgpojwedcksma/IndexedTable_Prefix.pch --analyze /Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m -o /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/StaticAnalyzer/normal/i386/StatesViewController.plist0#
-
-CAnalyze /Users/cwiles/Desktop/IndexedTable/main.m
-s288740578.511383
-e288740578.616432
-r1
-xAnalyze
-x/Users/cwiles/Desktop/IndexedTable/main.m
-lSLF07#2@49"Analyze /Users/cwiles/Desktop/IndexedTable/main.m288740578#288740578#0(0"0(0#0#41"/Users/cwiles/Desktop/IndexedTable/main.m4300885448#1924"    cd /Users/cwiles/Desktop/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-gvkonnafcaclohgtgpojwedcksma/IndexedTable_Prefix.pch --analyze /Users/cwiles/Desktop/IndexedTable/main.m -o /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/StaticAnalyzer/normal/i386/main.plist0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302561920#302561920#0(0"0(0#1#0"27866456492998768#0"0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o "/Users/cwiles/iPhone Projects/IndexedTable/Classes/IndexedTableAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295235737.739175
-e295235738.262783
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o
-x/Users/cwiles/iPhone Projects/IndexedTable/Classes/IndexedTableAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/cwiles/iPhone Projects/IndexedTable/Classes/IndexedTableAppDelegate.m295235737#295235738#0(0"0(0#0#76"/Users/cwiles/iPhone Projects/IndexedTable/Classes/IndexedTableAppDelegate.m8610133152#2113"    cd "/Users/cwiles/iPhone Projects/IndexedTable"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-gbwihmeexpxxfqcodnyykzhsdgxd/IndexedTable_Prefix.pch -c "/Users/cwiles/iPhone Projects/IndexedTable/Classes/IndexedTableAppDelegate.m" -o "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o"0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o /Users/coryw/Desktop/git/IndexedTable/Classes/IndexedTableAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302561920.993099
-e302561921.067663
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o
-x/Users/coryw/Desktop/git/IndexedTable/Classes/IndexedTableAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/coryw/Desktop/git/IndexedTable/Classes/IndexedTableAppDelegate.m302561920#302561921#0(0"0(0#0#71"/Users/coryw/Desktop/git/IndexedTable/Classes/IndexedTableAppDelegate.m8600347712#2036"    cd /Users/coryw/Desktop/git/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-bmffnzbuxctyyhfwbpbrajwgbdtm/IndexedTable_Prefix.pch -c /Users/coryw/Desktop/git/IndexedTable/Classes/IndexedTableAppDelegate.m -o /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o /Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288902876.019802
-e288902876.130074
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o
-x/Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m288902876#288902876#0(0"0(0#0#68"/Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m8318823007731523584#1961"    cd /Users/cwiles/Desktop/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-dsnsarrbjepwiqbygpmtelbvsonj/IndexedTable_Prefix.pch -c /Users/cwiles/Desktop/IndexedTable/Classes/IndexedTableAppDelegate.m -o /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTableAppDelegate.o0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o "/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295235738.242974
-e295235738.335190
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o
-x/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.m295235738#295235738#0(0"0(0#0#73"/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.m8610531072#2107"    cd "/Users/cwiles/iPhone Projects/IndexedTable"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-gbwihmeexpxxfqcodnyykzhsdgxd/IndexedTable_Prefix.pch -c "/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.m" -o "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o"0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o /Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302561921.040667
-e302561921.114628
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o
-x/Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.m302561921#302561921#0(0"0(0#0#68"/Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.m8599278944#2030"    cd /Users/coryw/Desktop/git/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-bmffnzbuxctyyhfwbpbrajwgbdtm/IndexedTable_Prefix.pch -c /Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.m -o /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o /Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288902876.028354
-e288902876.154139
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o
-x/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m288902876#288902876#0(0"0(0#0#65"/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m4300885448#1955"    cd /Users/cwiles/Desktop/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-dsnsarrbjepwiqbygpmtelbvsonj/IndexedTable_Prefix.pch -c /Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.m -o /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/StatesViewController.o0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o "/Users/cwiles/iPhone Projects/IndexedTable/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s295235737.738003
-e295235738.242875
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o
-x/Users/cwiles/iPhone Projects/IndexedTable/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/cwiles/iPhone Projects/IndexedTable/main.m295235737#295235738#0(0"0(0#0#49"/Users/cwiles/iPhone Projects/IndexedTable/main.m8609851456#2067"    cd "/Users/cwiles/iPhone Projects/IndexedTable"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-gbwihmeexpxxfqcodnyykzhsdgxd/IndexedTable_Prefix.pch -c "/Users/cwiles/iPhone Projects/IndexedTable/main.m" -o "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o /Users/coryw/Desktop/git/IndexedTable/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302561920.992185
-e302561921.040582
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o
-x/Users/coryw/Desktop/git/IndexedTable/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/coryw/Desktop/git/IndexedTable/main.m302561920#302561921#0(0"0(0#0#44"/Users/coryw/Desktop/git/IndexedTable/main.m8601034304#1990"    cd /Users/coryw/Desktop/git/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-bmffnzbuxctyyhfwbpbrajwgbdtm/IndexedTable_Prefix.pch -c /Users/coryw/Desktop/git/IndexedTable/main.m -o /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o0#
-
-CCompileC build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o /Users/cwiles/Desktop/IndexedTable/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288736789.213253
-e288736789.382016
-r1
-xCompileC
-xbuild/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o
-x/Users/cwiles/Desktop/IndexedTable/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/cwiles/Desktop/IndexedTable/main.m288736789#288736789#0(0"0(0#0#41"/Users/cwiles/Desktop/IndexedTable/main.m4300885448#1915"    cd /Users/cwiles/Desktop/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-dsnsarrbjepwiqbygpmtelbvsonj/IndexedTable_Prefix.pch -c /Users/cwiles/Desktop/IndexedTable/main.m -o /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/main.o0#
-
-CCompileXIB "/Users/cwiles/iPhone Projects/IndexedTable/Classes/StatesViewController.xib"
-r0
-
-CCompileXIB "/Users/cwiles/iPhone Projects/IndexedTable/MainWindow.xib"
-r0
-
-CCompileXIB /Users/coryw/Desktop/git/IndexedTable/Classes/StatesViewController.xib
-r0
-
-CCompileXIB /Users/coryw/Desktop/git/IndexedTable/MainWindow.xib
-r0
-
-CCompileXIB /Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.xib
-s288737232.893654
-e288737233.199071
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.xib
-lSLF07#2@43"CompileXIB Classes/StatesViewController.xib288737232#288737233#0(0"0(0#0#67"/Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.xib4300885448#503"    cd /Users/cwiles/Desktop/IndexedTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/StatesViewController.nib /Users/cwiles/Desktop/IndexedTable/Classes/StatesViewController.xib0#
-
-CCompileXIB /Users/cwiles/Desktop/IndexedTable/MainWindow.xib
-s288736788.104649
-e288736788.416250
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/IndexedTable/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib288736788#288736788#0(0"0(0#0#49"/Users/cwiles/Desktop/IndexedTable/MainWindow.xib4300885448#475"    cd /Users/cwiles/Desktop/IndexedTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/MainWindow.nib /Users/cwiles/Desktop/IndexedTable/MainWindow.xib0#
-
-CGenerateDSYMFile "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM" "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable"
-s295235738.616048
-e295235738.674155
-r1
-xGenerateDSYMFile
-x/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM
-x/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/IndexedTable.app.dSYM build/Debug-iphonesimulator/IndexedTable.app/IndexedTable295235738#295235738#0(0"0(0#0#100"/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable8609626400#416"    cd "/Users/cwiles/iPhone Projects/IndexedTable"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable" -o "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM"0#
-
-CGenerateDSYMFile /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-s302561921.140038
-e302561921.152332
-r1
-xGenerateDSYMFile
-x/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM
-x/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/IndexedTable.app.dSYM build/Debug-iphonesimulator/IndexedTable.app/IndexedTable302561921#302561921#0(0"0(0#0#95"/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable8603331680#395"    cd /Users/coryw/Desktop/git/IndexedTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable -o /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM0#
-
-CGenerateDSYMFile /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-s288902876.180235
-e288902876.197203
-r1
-xGenerateDSYMFile
-x/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM
-x/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/IndexedTable.app.dSYM build/Debug-iphonesimulator/IndexedTable.app/IndexedTable288902876#288902876#0(0"0(0#0#92"/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable4300885448#386"    cd /Users/cwiles/Desktop/IndexedTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable -o /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app.dSYM0#
-
-CLd "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable" normal i386
-s295235738.335285
-e295235738.615949
-r1
-xLd
-x/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-xnormal
-xi386
-lSLF07#2@105"Link /Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable295235738#295235738#0(0"0(0#0#0"8607295584#955"    cd "/Users/cwiles/iPhone Projects/IndexedTable"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator" "-F/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator" -filelist "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTable.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable"0#
-
-CLd /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable normal i386
-s302561921.114704
-e302561921.139952
-r1
-xLd
-x/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-xnormal
-xi386
-lSLF07#2@100"Link /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable302561921#302561921#0(0"0(0#0#0"8603804608#920"    cd /Users/coryw/Desktop/git/IndexedTable    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator -F/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator -filelist /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTable.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable0#
-
-CLd /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable normal i386
-s288902876.154232
-e288902876.180131
-r1
-xLd
-x/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable
-xnormal
-xi386
-lSLF07#2@97"Link /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable288902876#288902876#0(0"0(0#0#0"4300885448#869"    cd /Users/cwiles/Desktop/IndexedTable    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -filelist /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/Objects-normal/i386/IndexedTable.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/IndexedTable0#
-
-CProcessInfoPlistFile "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist" IndexedTable-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist IndexedTable-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist IndexedTable-Info.plist
-s288736788.065610
-e288736788.104493
-r1
-xProcessInfoPlistFile
-x/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist
-xIndexedTable-Info.plist
-lSLF07#2@31"Process IndexedTable-Info.plist288736788#288736788#0(0"0(0#0#58"/Users/cwiles/Desktop/IndexedTable/IndexedTable-Info.plist31244169098821736#482"    cd /Users/cwiles/Desktop/IndexedTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IndexedTable-Info.plist -genpkginfo /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app/Info.plist0#
-
-CProcessPCH /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-bmffnzbuxctyyhfwbpbrajwgbdtm/IndexedTable_Prefix.pch.gch IndexedTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302561920.460171
-e302561920.992102
-r1
-xProcessPCH
-x/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-bmffnzbuxctyyhfwbpbrajwgbdtm/IndexedTable_Prefix.pch.gch
-xIndexedTable_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile IndexedTable_Prefix.pch302561920#302561920#0(0"0(0#0#61"/Users/coryw/Desktop/git/IndexedTable/IndexedTable_Prefix.pch8601433216#1878"    cd /Users/coryw/Desktop/git/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -c /Users/coryw/Desktop/git/IndexedTable/IndexedTable_Prefix.pch -o /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-bmffnzbuxctyyhfwbpbrajwgbdtm/IndexedTable_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-dsnsarrbjepwiqbygpmtelbvsonj/IndexedTable_Prefix.pch.gch IndexedTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s288736788.456261
-e288736789.213081
-r1
-xProcessPCH
-x/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-dsnsarrbjepwiqbygpmtelbvsonj/IndexedTable_Prefix.pch.gch
-xIndexedTable_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile IndexedTable_Prefix.pch288736788#288736789#0(0"0(0#0#58"/Users/cwiles/Desktop/IndexedTable/IndexedTable_Prefix.pch4300885448#1806"    cd /Users/cwiles/Desktop/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -c /Users/cwiles/Desktop/IndexedTable/IndexedTable_Prefix.pch -o /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-dsnsarrbjepwiqbygpmtelbvsonj/IndexedTable_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-gvkonnafcaclohgtgpojwedcksma/IndexedTable_Prefix.pch.pth IndexedTable_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s288740577.931784
-e288740578.510924
-r1
-xProcessPCH
-x/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-gvkonnafcaclohgtgpojwedcksma/IndexedTable_Prefix.pch.pth
-xIndexedTable_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@34"Precompile IndexedTable_Prefix.pch288740577#288740578#0(0"0(0#0#58"/Users/cwiles/Desktop/IndexedTable/IndexedTable_Prefix.pch4300885448#1797"    cd /Users/cwiles/Desktop/IndexedTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap -iquote /Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap -F/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386 -I/Users/cwiles/Desktop/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources -c /Users/cwiles/Desktop/IndexedTable/IndexedTable_Prefix.pch -o /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IndexedTable_Prefix-gvkonnafcaclohgtgpojwedcksma/IndexedTable_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-fpifvqipsemkwegbucalrdycjywl/IndexedTable_Prefix.pch.gch IndexedTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-gbwihmeexpxxfqcodnyykzhsdgxd/IndexedTable_Prefix.pch.gch IndexedTable_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s295235734.978166
-e295235737.737639
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-gbwihmeexpxxfqcodnyykzhsdgxd/IndexedTable_Prefix.pch.gch
-xIndexedTable_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile IndexedTable_Prefix.pch295235734#295235737#0(0"0(0#0#66"/Users/cwiles/iPhone Projects/IndexedTable/IndexedTable_Prefix.pch7089040078633722880#1948"    cd "/Users/cwiles/iPhone Projects/IndexedTable"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/IndexedTable-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/IndexedTable/build/IndexedTable.build/Debug-iphonesimulator/IndexedTable.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/IndexedTable/IndexedTable_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IndexedTable_Prefix-gbwihmeexpxxfqcodnyykzhsdgxd/IndexedTable_Prefix.pch.gch0#
-
-CTouch "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app"
-s295235738.674240
-e295235738.697617
-r1
-xTouch
-x/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-lSLF07#2@93"Touch /Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app295235738#295235738#0(0"0(0#0#0"8609526080#295"    cd "/Users/cwiles/iPhone Projects/IndexedTable"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/cwiles/iPhone Projects/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app"0#
-
-CTouch /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-s302561921.152404
-e302561921.154437
-r1
-xTouch
-x/Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-lSLF07#2@88"Touch /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app302561921#302561921#0(0"0(0#0#0"8598569152#281"    cd /Users/coryw/Desktop/git/IndexedTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/coryw/Desktop/git/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app0#
-
-CTouch /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-s288902876.197295
-e288902876.200082
-r1
-xTouch
-x/Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app
-lSLF07#2@85"Touch /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app288902876#288902876#0(0"0(0#0#0"4300885448#275"    cd /Users/cwiles/Desktop/IndexedTable    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cwiles/Desktop/IndexedTable/build/Debug-iphonesimulator/IndexedTable.app0#
-
